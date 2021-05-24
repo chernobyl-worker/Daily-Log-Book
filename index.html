@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Daily Log Book</title>
+</head>
+<body>
+    <h1>Daily Log Book</h1>
+    <fieldset>
+        <legend><h3>ADD NEW</h3></legend>
+        <form class= "Input">
+            <label for="Log-Heading" style="display: none;">Required Log Heading</label>
+            <input id="Log-Heading" class = "Log-Heading" type="text" required placeholder="Log Heading (required)">
+            <label for="Log-Content" style="display: none;">Log Content</label>
+            <textarea name="Log Content" id="Log-Content"placeholder="Log Content (can be blank)"></textarea>
+            <label for="Submit" style="display: none;">Add</label>
+            <button type="submit" class="Add"> Add </button>
+        </form>
+    </fieldset>
+    <Fieldset>
+        <legend><h3>LOGS</h3></legend>
+        <div class="Display">
+            <ul class="List">
+
+            </ul>
+        </div>
+    </Fieldset>
+    <script src="./index.js"></script>
+</body>
+</html>
